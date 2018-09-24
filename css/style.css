@@ -1,0 +1,66 @@
+/*
+Colors used
+
+Primary color (blue): #3D5AFE
+Primary color (green): #00E676
+Primary color (black): #212322
+Primary color text (black): #424242
+Primary color text  (black2): #717171
+
+*/
+
+<head>
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+</head>
+
+
+body{
+  font-family:"Roboto", sans-serif;
+  font-size: 20px;
+}
+
+h1{
+  font-family:"Poppins", sans-serif;;
+  font-size: 44px;
+}
+
+h2{
+  font-family:"Poppins", sans-serif;;
+  font-size: 24px;
+}
+
+a {
+  color: #00E676;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FF8A80;
+}
+
+
+a:active {
+  color: #FF5252;
+}
+
+
+button {
+  border: none;
+  font-family: inherit;
+  background-color: #00E676;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
